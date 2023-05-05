@@ -3,9 +3,6 @@
 This project is an interactive weather forecast visualization based on historical temperature data. Users can input a specific month, day, and hour, and the application will predict the temperature using a decision tree regression model. The backend is built with Flask, while the frontend visualization is created using D3.js.
 
 ## Table of Contents
-...
-
-## Table of Contents
 
 - [Dataset](#Dataset)
 - [Installation](#installation)

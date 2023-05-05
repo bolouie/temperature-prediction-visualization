@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Forecasting</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+        <div id="container">
+
+            <h1>Simple Forecasting</h1>
+        
+            <div id="graph"></div>
+        
+            <h6>Month</h6>
+            <input id="month" type="range" value="1" min="1" max="12">
+            
+            <h6>Day</h6>
+            <input id="day" type="range" value="1" min="1" max="30">
+            
+            <h6>Hour</h6>
+            <input id="hour" type="range" value="0" min="0" max=23>
+            
+            <h5>
+                Average temperature for
+                <br>
+                
+                <span id="display_month">{month}</span>
+            /
+            <span id="display_day">{day}</span>
+            <span id="display_hour">{hour}</span>:00 is:
+            </h5>
+        
+            <h3>
+        
+            <span id="display_temp">{temp}</span>&deg; celsius
+        
+          </h3>
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

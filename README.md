@@ -46,10 +46,6 @@ python server.py
 2. Open your web browser and navigate to `http://127.0.0.1:5000/` to view the visualization.
 
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
